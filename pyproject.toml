@@ -1,0 +1,13 @@
+[project]
+name = "oraculus-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.128.0",
+    "openai>=2.15.0",
+    "openai-agents>=0.7.0",
+    "websockets>=16.0",
+]
